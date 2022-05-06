@@ -1,0 +1,52 @@
+.container {
+  border-radius: 10px;
+  box-shadow: rgba(23, 23, 24, 0.08) 0 8px 8px 0;
+  background-image: linear-gradient(
+    rgb(251, 251, 204) 0%,
+    #ffff 30%,
+    rgb(161, 224, 241) 100%
+  );
+  width: 45%;
+  padding: 30px;
+  margin: 30px auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.first {
+  font-size: 25px;
+  text-align: center;
+}
+.second {
+  font-size: 10px;
+}
+.third {
+  font-size: 17px;
+}
+
+.search {
+  position: relative;
+  left: 70px;
+  margin: 5px auto;
+}
+.city-form {
+  width: 30px;
+}
+
+small {
+  font-style: italic;
+  font-size: large;
+}
+
+button {
+  background-color: rgb(170, 224, 238);
+  border: 1px solid;
+  color: rgb(0, 0, 0);
+  padding: 5px 5px;
+  border-radius: 3mm;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-style: italic;
+  cursor: pointer;
+}
